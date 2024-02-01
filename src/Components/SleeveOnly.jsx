@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-function Sleeve_only() {
+function SleeveOnly() {
   const [Sleeve_onlyenteredNumber, setSleeve_onlyEnteredNumber] = useState("");
   const [Sleeve_onlyinitialEnteredNumber, setSleeve_onlyInitialEnteredNumber] =
     useState("");
@@ -92,4 +92,4 @@ function Sleeve_only() {
   );
 }
 
-export default Sleeve_only;
+export default SleeveOnly;

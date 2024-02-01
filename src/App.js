@@ -1,55 +1,55 @@
-import Button_patti from "./Components/Button_patti";
+import ButtonPatti from "./Components/ButtonPatti";
 import Collar from "./Components/Collar";
-import Sleeve_mouth from "./Components/Sleeve_mouth";
-import Sleeve_only from "./Components/Sleeve_only";
+import SleeveMouth from "./Components/SleeveMouth";
+import SleeveOnly from "./Components/SleeveOnly";
 import "./App.css";
 import Pocket from "./Components/Pocket";
 import Cuff from "./Components/Cuff";
-import Front_back from "./Components/Front_back";
-import Sleeve_ts from "./Components/Sleeve_ts";
-import Collar_ready from "./Components/Collar_ready";
+import FrontBack from "./Components/FrontBack";
+import SleeveTs from "./Components/SleeveTs";
+import CollarReady from "./Components/CollarReady";
 import Sleeve from "./Components/Sleeve";
-import Feed_of_arm from "./Components/Feed_of_arm";
-import Pocket_mouth from "./Components/Pocket_mouth";
-import Cuff_ready from "./Components/Cuff_ready";
-import Main_label from "./Components/Main_label";
+import FeedOfArm from "./Components/FeedOfArm";
+import PocketMouth from "./Components/PocketMouth";
+import CuffReady from "./Components/CuffReady";
+import MainLabel from "./Components/MainLabel";
 import Kansai from "./Components/Kansai";
 import Bottom from "./Components/Bottom";
-import Sleeve_dart from "./Components/Sleeve_dart";
-import Sleeve_patti from "./Components/Sleeve_patti";
+import SleeveDart from "./Components/SleeveDart";
+import SleevePatti from "./Components/SleevePatti";
 function App() {
   return (
     <div className="App">
       <div>
         <div className="flex">
-          <Sleeve_only />
+          <SleeveOnly />
           <Collar />
-          <Button_patti />
+          <ButtonPatti />
         </div>
         <div className="flex">
-          <Sleeve_mouth />
+          <SleeveMouth />
           <Pocket />
           <Cuff />
         </div>
         <div className="flex">
-          <Front_back />
-          <Sleeve_ts />
-          <Collar_ready />
+          <FrontBack />
+          <SleeveTs />
+          <CollarReady />
         </div>
         <div className="flex">
           <Sleeve />
-          <Feed_of_arm />
-          <Pocket_mouth />
+          <FeedOfArm />
+          <PocketMouth />
         </div>
         <div className="flex">
-          <Cuff_ready />
-          <Main_label />
+          <CuffReady />
+          <MainLabel />
           <Kansai />
         </div>
         <div className="flex">
           <Bottom />
-          <Sleeve_dart />
-          <Sleeve_patti />
+          <SleeveDart />
+          <SleevePatti />
         </div>
       </div>
     </div>
