@@ -17,9 +17,13 @@ import Kansai from "./Components/Kansai";
 import Bottom from "./Components/Bottom";
 import SleeveDart from "./Components/SleeveDart";
 import SleevePatti from "./Components/SleevePatti";
+import LOT from "./Components/LOT";
 function App() {
   return (
     <div className="App">
+      <div>
+        <LOT />
+      </div>
       <div>
         <div className="flex">
           <SleeveOnly />
